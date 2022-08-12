@@ -158,3 +158,26 @@ Console.Clear();
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+// Console.WriteLine("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num % 2 == 0)
+// {
+//   Console.WriteLine("True");
+// }
+// else 
+// {
+//   Console.WriteLine("Fols");
+// }
+
+
+// Ex.4. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+Console.WriteLine("Введите число N : ");
+int i = Convert.ToInt32(Console.ReadLine());
+int counter = 2;
+while (counter <= i)
+{
+  Console.Write( $"{counter} ");
+  counter +=2;
+}
